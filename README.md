@@ -29,11 +29,11 @@ Este projeto consiste em uma aplicação web que oferece funcionalidades de aute
 
 Aqui estão algumas capturas de tela da aplicação em funcionamento:
 
-![Tela de Login](/Imagens Execução/Imagem-Login.PNG)
+![Tela de Login](Imagens%20Execução/Imagem-Login.PNG)
 *Figura 1: Tela de Login*
 
-![Mapa](Imagens Execução/Imagem-Mapa.PNG)
+![Mapa](Imagens%20Execução/Imagem-Mapa.PNG)
 *Figura 2: Mapa com marcadores*
 
-![Tela de Cadastro](Imagens Execução/Imagem-Cadastro.PNG)
+![Tela de Cadastro](Imagens%20Execução/Imagem-Cadastro.PNG)
 *Figura 3: Tela de cadastro*
