@@ -6,8 +6,8 @@ Este projeto consiste em uma aplicação web que oferece funcionalidades de aute
 
 - **Autenticação de Usuários**: Os usuários podem se autenticar na aplicação fornecendo suas credenciais de login.
 - **Armazenamento de Usuários**: As informações dos usuários são armazenadas em um banco de dados MySQL.
-- **Renderização de Mapa**: Utilizando a API Leaflet.js, a aplicação renderiza um mapa com marcadores em cada coordenada contida no arquivo `positions.json`.
-- **Trajeto Cronológico**: O sistema cria uma linha poligonal unindo as coordenadas do arquivo `positions.json`, mostrando um trajeto cronológico.
+- **Renderização de Mapa**: Utilizando a API Leaflet.js, a aplicação renderiza um mapa com marcadores em cada coordenada contida no arquivo `Posicoes.json`.
+- **Trajeto Cronológico**: O sistema cria uma linha poligonal unindo as coordenadas do arquivo `Posicoes.json`, mostrando um trajeto cronológico.
 
 
 ## Tecnologias Utilizadas
