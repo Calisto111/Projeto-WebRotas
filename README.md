@@ -24,3 +24,16 @@ Este projeto consiste em uma aplicação web que oferece funcionalidades de aute
 2. Configure a conexão com o banco de dados de sua escolha no arquivo `index.py`.
 3. Execute o arquivo `index.py` para iniciar a aplicação.
 4. Acesse a aplicação em seu navegador e utilize as funcionalidades de autenticação e visualização do mapa.
+
+## Imagens da Aplicação
+
+Aqui estão algumas capturas de tela da aplicação em funcionamento:
+
+![Tela de Login](/Imagens Execução/Imagem-Login.PNG)
+*Figura 1: Tela de Login*
+
+![Mapa](Imagens Execução/Imagem-Mapa.PNG)
+*Figura 2: Mapa com marcadores*
+
+![Tela de Cadastro](Imagens Execução/Imagem-Cadastro.PNG)
+*Figura 3: Tela de cadastro*
