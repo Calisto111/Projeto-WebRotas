@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Tela de Login</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Página para demonstrar a estrutura html">
+        <link href="{{ url_for('static', filename='EstiloPaginaLogin.css')}}" rel="Stylesheet"/>
+    </head>
+
+    <body>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <div class="DivLogin">
+            <h1>Login Web Rotas</h1>
+
+ 
+
+            <form method="post">
+                <input type="text" name="user" placeholder="Usuário"/>
+                <br>
+                <br>
+                <input type="password" name="password" placeholder="Senha"/>
+                <br>
+                <br>
+                <button class="ButtonEntrar" type="submit" formaction="/login">Entrar</button>
+                <br>
+                <br>
+                <button class="ButtonCadastrar" type="submit" formaction="/PaginaCadastro">Cadastrar</button>
+            </form>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(function() {
+                    var alert = document.querySelector('.alert');
+                    if (alert) {
+                        alert.style.display = 'none';
+                    }
+                }, 10000);
+            });
+        </script>
+
+    </body>
+</html>

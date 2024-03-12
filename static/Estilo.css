@@ -1,0 +1,16 @@
+body{
+    margin:0;
+}
+
+div{
+    background-color:#000000;
+    color:#FFFFFF;
+
+}
+
+div span{
+    background-color: blueviolet;
+}
+
+
+

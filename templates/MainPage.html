@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa com OpenStreetMap</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link href="{{ url_for('static', filename='EstiloPaginaLogin.css')}}" rel="Stylesheet"/>
+
+</head>
+
+
+<body>
+    <header class="HeaderMainPage">
+        <button class="ButtonLogout" onclick="window.location.href='/returnPaginaLogin'">Sair</button>
+    </header>
+
+    <div id="divMap">
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script src="{{ url_for('static', filename='Script.js') }}"></script>
+
+    </div>
+
+    <!-- Inclui o arquivo JavaScript da biblioteca Leaflet.js 
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+     <script>
+     var map = L.map('divMap').setView([-18.9188, -48.2762], 10);
+
+    // Adiciona camada de mapa do OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom:19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Carrega o arquivo JSON de posições
+    fetch('Posicoes.json')
+        .then(response => response.json())
+        .then(jsonData => {
+            jsonData.data.forEach(point => {
+                L.marker([parseFloat(point.latitude), parseFloat(point.longitude)]).addTo(map)
+                    .bindPopup("Data e Hora" +point.date_time);
+            });
+        })
+        .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
+</script>-->
+</body>
+</html>
